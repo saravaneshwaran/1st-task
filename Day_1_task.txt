@@ -1,0 +1,57 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+
+HTTP1.1 and HTTP2 are two protocols used for transmitting data over the World Wide Web.
+ Although both protocols are used for the same purpose, they have a number of differences that can affect the performance and efficiency of a website.
+ In this blog, we will explore the key differences between HTTP1.1 and HTTP2 and why it's important to understand these differences.
+
+Multiplexing: One of the biggest differences between HTTP1.1 and HTTP2 is the way in which they handle multiple requests.
+ In HTTP1.1, each request must be sent over a separate connection, which can result in increased latency and reduced efficiency.
+  HTTP2, on the other hand, allows multiple requests to be sent over a single connection, which results in faster and more efficient communication.
+
+Header Compression: Another difference between the two protocols is the way in which they handle headers.
+ In HTTP1.1, headers can be quite large and repetitive, which can add to the overall size of the request. 
+HTTP2 addresses this by compressing headers, reducing the size of requests and improving efficiency.
+
+Server Push: HTTP2 also includes a feature called "server push," which allows servers to proactively push resources to clients. 
+This can significantly reduce the number of round trips required for a page to load, improving performance and reducing latency.
+
+Binary Format: Finally, another difference between HTTP1.1 and HTTP2 is the format in which they transmit data.
+ HTTP1.1 uses a text-based format, which can be more prone to errors and inefficiencies.
+ HTTP2 uses a binary format, which is more compact and efficient.
+
+In conclusion, HTTP2 provides significant performance improvements over HTTP1.1, making it the preferred protocol for transmitting data over the World Wide Web.
+ It's important for website owners and developers to understand the differences between HTTP1.1 and HTTP2 so that they can make informed decisions about how to optimize the performance and efficiency of their websites. 
+If you're looking to improve the performance of your website, upgrading to HTTP2 is a great place to start.
+
+2.Write a blog about objects and its internal representation in Javascript
+
+In JavaScript, objects are one of the most versatile and important data types. 
+They can be used to represent real-world entities and to store collections of data and methods.
+ Objects are dynamic and can be modified at runtime, making them a powerful tool for building complex applications.
+ But what exactly is an object in JavaScript, and how is it represented internally?
+
+An object in JavaScript is a collection of key-value pairs. 
+The keys are used to identify the values stored within the object, while the values can be any data type, including other objects, arrays, and even functions.
+ This structure allows for the creation of complex data structures, such as lists of objects, objects within objects, and so on.
+
+One of the most interesting aspects of objects in JavaScript is that they are dynamic and can be modified at runtime.
+ This means that you can add, remove, and modify properties and methods on an object at any time. 
+This makes it easy to build and change complex data structures as your application evolves.
+
+Internally, objects in JavaScript are represented as a combination of a hash table and a linked list.
+ The hash table is used to store the keys and values of the object, while the linked list provides the order in which the properties are stored.
+ This allows for fast access to the properties of the object, as well as efficient insertion and deletion of properties.
+
+When you create an object in JavaScript, you are creating a reference to an object in memory.
+ The reference points to the location in memory where the object's data is stored.
+ When you assign one object to another, you are creating a new reference to the same object in memory, not a new copy of the object. 
+This is known as pass-by-reference.
+
+It's important to understand that objects in JavaScript are mutable, meaning that their properties can be changed after they are created. 
+This can have important implications for your code, as changes to an object in one part of your application can affect other parts that reference the same object.
+ To avoid this, it is often necessary to create a copy of an object before modifying it, or to use immutability libraries.
+
+In conclusion, objects in JavaScript are a powerful and versatile data type that can be used to represent complex data structures and real-world entities. 
+They are internally represented as a combination of a hash table and a linked list, and are stored in memory as references to objects.
+ Understanding the nature of objects in JavaScript is essential for building effective and efficient applications.
