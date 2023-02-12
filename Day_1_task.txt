@@ -1,4 +1,4 @@
-1.Write a blog on Difference between HTTP1.1 vs HTTP2
+/////////////////////////////1.Write a blog on Difference between HTTP1.1 vs HTTP2////////////////////
 
 
 HTTP1.1 and HTTP2 are two protocols used for transmitting data over the World Wide Web.
@@ -24,7 +24,7 @@ In conclusion, HTTP2 provides significant performance improvements over HTTP1.1,
  It's important for website owners and developers to understand the differences between HTTP1.1 and HTTP2 so that they can make informed decisions about how to optimize the performance and efficiency of their websites. 
 If you're looking to improve the performance of your website, upgrading to HTTP2 is a great place to start.
 
-2.Write a blog about objects and its internal representation in Javascript
+///////////////////////2.Write a blog about objects and its internal representation in Javascript///////////////////////////////////////////////
 
 In JavaScript, objects are one of the most versatile and important data types. 
 They can be used to represent real-world entities and to store collections of data and methods.
